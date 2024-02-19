@@ -1,0 +1,273 @@
+.side{
+    width: 250px;
+    height: 100%;
+    background: #1A1A1A;
+    position: fixed;
+
+}
+.s{
+    color: #FFFFFF;
+    font-weight: 700px;
+    size: 50px;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+.page{
+    margin-left: 250px;
+    height: 100%;
+    width: 86.5vw;
+    background: #000000;
+    position: fixed;
+    
+}
+.side_btn{
+    border-radius: 5px;
+    border: 1px solid #FFFFFF1A;
+    text-align: center;
+    width: 188px;
+    height: 62px;
+    color: #A2A2A2; 
+    display: inline-block;
+    background-color: #1A1A1A;
+    
+    
+}
+.mt-30{
+    margin-top: 30px;
+}
+.mt-90{
+    margin-top: 90px;
+}
+.m-l{
+    text-align: end;
+    margin-top: -360px;
+}
+.m-lt{
+    margin-left: 147px;
+}
+.img-size{
+    margin-top: 77px;
+    margin-left: 121px;
+}
+.img-size1{
+    width: 647px;
+    height: 641px;
+}
+.dash-p{
+    margin-top: -450px;
+    font-weight: 500px;
+    font-size: 16px;
+    color: #505050;
+    margin-left: 500px;
+}
+.dash-h1{
+    font-weight: 700;
+    font-size: 60px;
+    color: #FFFFFF;
+    margin-left: 187px;
+    margin-top: 40.63px;
+}
+.today{
+    color: #2D9352;
+    font-weight: 275;
+    font-size: 60px;
+}
+.dash-p1{
+    margin-left: 187px;
+    margin-top: 32px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #A2A2A2;
+}
+.dash-btn{
+    margin-left: 187px;
+    width: 209px;
+    height: 66px;
+    border-radius: 80px;
+    margin-top: 67px;
+    background-color: #2D9352;
+}
+.design-h3{
+   color: #2D9352;
+   font-weight: 500;
+   font-size: 20px;
+   margin-top: -550px;
+   letter-spacing: 1.4px;
+}
+.design-h1{
+   font-weight: 600;
+   font-size: 50px;
+   color: #FFFFFF;
+}
+.deve-h1{
+    font-weight: 600;
+   font-size: 50px;
+   color: #FFFFFF;
+}
+.div-size{
+    width: 728px;
+    height: 130px;
+    margin-left: 487px;
+    margin-top: 35px;
+}
+.div-size-d{
+    width: 576px;
+    height: 130px;
+    margin-left: 547px;
+    margin-top: 35px;
+}
+.div-size-m{
+    width: 518px;
+    height: 130px;
+    margin-left: 576px;
+    margin-top: 35px;
+}
+.div-size-mar{
+    width: 1216px;
+    height: 377px;
+    margin-left: 227px;
+    margin-top: 80px;
+}
+.ml-40{
+    margin-left: 40px;
+}
+.ml-275{
+    margin-left: 275px;
+}
+.ml{
+    margin-left: 60px;
+}
+.ml-736{
+    margin-left: 736px;
+}
+.ml-747{
+    margin-left: 747px;
+}
+.ml-732{
+    margin-left: 732px;
+}
+.ml-710{
+    margin-left: 710px;
+}
+.ml-50{
+    margin-left: 50px;
+}
+.gency{
+    width: 583px;
+    height: 377px;
+    border-radius: 5px;
+    border: 1px solid #303030;
+    background-color: #000000;
+}
+.gency-t{
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-top: 41px;
+    margin-left: 43px;
+}
+.gency-hr{
+    width: 163px;
+    margin-left: 43px;
+    border: 1.5px solid #2D9352;
+}
+.gency-h4{
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 43px;
+    margin-top: 20px;
+    color: #FFFFFF;
+}
+.gency-present{
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-left: 43px;
+    margin-top: 6px;
+}
+.gency-p{
+    font-weight: 500;
+    font-size: 16px;
+    color: #A2A2A2;
+    margin-left: 43px;
+    margin-top: 25px;
+}
+.gency-r{
+    font-weight: 500;
+    font-size: 16px;
+    color: #2D9352;
+    margin-top: 28px;
+    margin-left: 43px;
+}
+
+.prog{
+    width: 524px;
+    height: 6px;
+    background-color: #303030;
+    margin-left: 43px;
+}
+.prog-clr{
+    width: 75%;
+    height: 5px;
+    background-color: #2D9352;
+}
+.contact-h1{
+    font-weight: 600;
+    font-size: 50px;
+    color: #FFFFFF;
+    margin-left: 688px;
+    margin-top: -500px;
+}
+.ml-187{
+    margin-left: 187px;
+}
+.input-1{
+    width: 636px;
+    height: 60px;
+    border: 1px solid #303030;
+    background-color: #000000;
+    color: #A2A2A2;
+    font-weight: 300;
+    font-size: 16px;
+    
+}
+.mt-100{
+    margin-top: 100px;
+}
+.ml-24{
+    margin-left: 24px;
+}
+.input-2{
+    width: 1296px;
+    height: 60px;
+    border: 1px solid #303030;
+    background-color: #000000;
+    font-weight: 300;
+    font-size: 16px;
+    color: #A2A2A2;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.ml-21{
+    margin-left: 21px;
+}
+.text-area{
+    width: 1296px;
+    height: 156px;
+    border: 1px solid #303030;
+    background-color: #000000;
+    color: #A2A2A2;
+}
+.button{
+    width: 191.7px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: #2D9352;
+    margin-top: 80px;
+    margin-left: 570px;
+}
+.img1{
+    width: 30px;
+    height: 24px;
+}
