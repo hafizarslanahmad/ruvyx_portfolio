@@ -252,6 +252,9 @@
 .ml-21{
     margin-left: 21px;
 }
+.ml-20{
+    margin-left: 20px;
+}
 .text-area{
     width: 1296px;
     height: 156px;
@@ -270,4 +273,33 @@
 .img1{
     width: 30px;
     height: 24px;
+}
+.center{
+    text-align: center;
+}
+.d-div{
+    height: 495px;
+    width: 1288px;
+    margin-left: 200px;
+    margin-top: 35px;
+}
+.d-img{
+    width: 416px;
+    height: 350px;
+    border-radius: 5px;
+}
+.title{
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+.des{
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 17px;
+    color: #A2A2A2;
+}
+.green{
+    color: #2D9352;
 }

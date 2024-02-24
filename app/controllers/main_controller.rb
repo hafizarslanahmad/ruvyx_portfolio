@@ -6,6 +6,7 @@ class MainController < ApplicationController
     end
 
     def designing
+        @designing = Designing.find(params[:id])
     end
 
     def development
