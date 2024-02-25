@@ -12,32 +12,17 @@
     </div>
     <div class="d-div">
       <div class="d-flex">
-        <div class="d-img">
-            <img src="assets/DSC_4711 copy.jpg", class="d-img">
-            <h5 class="title">Where Passion and Purpose Collide</h5>
-            <p class="des">
-            Lorem Ipsum is simply dummy text of the printing
-            and types etting in our company here thisn
-            designers give me more design here <span class="green">[Read more]</span></p>
-        </div>
-
-        <div class="d-img ml-20">
-            <img src="assets/DSC_4711 copy.jpg", class="d-img">
-            <h5 class="title">Where Passion and Purpose Collide</h5>
-            <p class="des">
-            Lorem Ipsum is simply dummy text of the printing
-            and types etting in our company here thisn
-            designers give me more design here <span class="green">[Read more]</span></p>
-        </div>
-
-        <div class="d-img ml-20">
-            <img src="assets/DSC_4711 copy.jpg", class="d-img">
-            <h5 class="title">Where Passion and Purpose Collide</h5>
-            <p class="des">
-            Lorem Ipsum is simply dummy text of the printing
-            and types etting in our company here thisn
-            designers give me more design here <span class="green">[Read more]</span></p>
-        </div>
+        <% @designings.each do |design|%>
+          <div class="d-img mr-20">
+              <% if design.images.attached?%>
+                <%= image_tag design.images.first, class: "d-img"%>
+              <%else%>
+                <p>No image available</p>  
+              <%end%>          
+                <h5 class="title"><%= design.title %></h3>
+                <p class="des"><%= design.description %></p>     
+          </div>
+          <% end %>  
       </div>
     </div>
 </div>

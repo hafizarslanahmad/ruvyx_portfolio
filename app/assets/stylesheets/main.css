@@ -288,6 +288,10 @@
     height: 350px;
     border-radius: 5px;
 }
+.d-img1{
+    width: 416px;
+    height: 350px;
+}
 .title{
     font-weight: 500;
     font-size: 20px;
@@ -302,4 +306,7 @@
 }
 .green{
     color: #2D9352;
+}
+.mr-20{
+    margin-right: 20px;
 }
