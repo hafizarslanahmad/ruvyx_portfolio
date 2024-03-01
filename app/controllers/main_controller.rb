@@ -6,7 +6,10 @@ class MainController < ApplicationController
     end
 
     def designing
-       @designings = Designing.all 
+        
+    end
+    def show 
+        
     end
 
     def development
@@ -19,5 +22,7 @@ class MainController < ApplicationController
     end
 
     def contact
+    end
+    def show
     end
 end

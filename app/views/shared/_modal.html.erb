@@ -1,0 +1,12 @@
+<%= turbo_frame_tag "modal" do %>
+  <div class="modal fade" tabindex="-1" data-controller="modals">
+    <div class="modal-dialog ">
+      <div class=" ml--600 modal-1">
+        
+        <div class="modal-body" id="remote_modal_body" >
+          <%= yield %>
+        </div>
+      </div>
+    </div>
+  </div>
+<% end %>

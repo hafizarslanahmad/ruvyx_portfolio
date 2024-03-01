@@ -17,7 +17,7 @@
     height: 100%;
     width: 86.5vw;
     background: #000000;
-    position: fixed;
+    position: absolute;
     
 }
 .side_btn{
@@ -309,4 +309,43 @@
 }
 .mr-20{
     margin-right: 20px;
+}
+
+.modal-img{
+    width: 600px;
+    height: 500px;
+    margin-top: -15px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 1px solid #303030;
+}
+
+.modal-tem{
+    width: 494px;
+    margin-top: -15px;
+    margin-left: 20px;
+}
+.modal-h{
+    font-weight: 500;
+    font-size: 30px;
+    color: #FFFFFF;
+    width: 429px;
+    height: 90px;
+}
+.modal-p{
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.btn-cls{
+    margin-top: 15px;
+    text-align: end !important;
+}
+.m-bg{
+    background-color: #303030;
+}
+.close-r{
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
 }

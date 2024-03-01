@@ -18,10 +18,11 @@
                   <%= image_tag project.images.first, class: "d-img"%>
                 <%else%>
                   <p>No image available</p>  
-                <%end%>          
+                <%end%>  
+                  <p><%= project.category%></p>        
                   <h5 class="title"><%= project.title %></h3>
                   <p class="des"><%= project.description %></p> 
-                  <span class="green"><%= link_to '[Read more]', show_path(project.id), data: { turbo_frame: 'modal' }%><span>    
+                  <span class="green"><%= link_to '[Read more]', project_path(project.id), data: { turbo_frame: 'modal' }%><span>    
             </div>  
           <% end %>  
       </div>

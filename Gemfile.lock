@@ -332,6 +332,7 @@ DEPENDENCIES
   error_highlight (>= 0.4.0)
   faker
   jbuilder
+  jquery-rails
   jsbundling-rails
   pg (~> 1.1)
   puma (>= 5.0)

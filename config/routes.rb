@@ -10,11 +10,15 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
    root "main#home"
 
-   get "designing", to: "main#designing"
-   get "development", to: "main#development"
-   get "mobile", to: "main#mobile"
-   get "marketing", to: "main#marketing"
+   #get "development", to: "main#development"
+   #get "mobile", to: "main#mobile"
+   #get "marketing", to: "main#marketing"
    get "contact", to: "main#contact"
+   
+   resources :mains
+   resources :projects
+   resources :mobiles
+   #get "index", to: "main#index"
 
    
 end
