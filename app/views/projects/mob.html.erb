@@ -1,0 +1,31 @@
+<div class="content">
+    <div class="img-size">
+      <img src="assets/noun-hexagon-3398768 1.png">
+    </div>
+    <div class="m-l">
+       <img src="assets/noun-hexagon-3398768 2.png">
+    </div>
+    <h3 class="design-h3 ml-736">CREATIVE DESIGNING</h3>
+    <div class="div-size">
+       <h1 class="design-h1">Our Creative for the Creative</h1>
+       <h1 class="design-h1 ml-275">World</h1>
+    </div>
+    <div class="d-div">
+      <div class="d-flex">
+        <% @projects.each do |project|%>
+            <div class="d-img mr-20">
+                <% if project.images.attached?%>
+                  <%= image_tag project.images.first, class: "d-img"%>
+                <%else%>
+                  <p>No image available</p>  
+                <%end%>  
+                  <p><%= project.category%></p>        
+                  <h5 class="title"><%= project.title %></h3>
+                  <p class="des"><%= project.description %></p> 
+                  <span class="green"><%= link_to '[Read more]', project_path(project.id), data: { turbo_frame: 'modal' }%><span>    
+            </div>  
+          <% end %>  
+      </div>
+    </div>
+      
+</div>

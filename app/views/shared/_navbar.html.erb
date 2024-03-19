@@ -1,0 +1,10 @@
+<nav class="nav">
+    <ul class="nav-ul">
+        <li class="nav-ul-li"><a href="/" class="nav-ul-li-a <%= 'green-text' if request.original_fullpath == '/'%>">Home</a></li>
+        <li class="nav-ul-li"><a href="/categories?type=designing" class="nav-ul-li-a <%= 'green-text' if request.original_fullpath == '/categories?type=designing'%>">Designing</a></li>
+        <li class="nav-ul-li"><a href="/categories?type=web_development" class="nav-ul-li-a  <%= 'green-text' if request.original_fullpath == '/categories?type=web_development'%>">Web_Development</a></li>
+        <li class="nav-ul-li"><a href="/categories?type=mobile" class="nav-ul-li-a <%= 'green-text' if request.original_fullpath == '/categories?type=mobile'%>">Mobile</a></li>
+        <li class="nav-ul-li"><a href="/marketing" class="nav-ul-li-a <%= 'green-text' if request.original_fullpath == '/marketing'%>">Marketing</a></li>
+        <li class="nav-ul-li"><a href="/contact" class="nav-ul-li-a <%= 'green-text' if request.original_fullpath == '/contact'%>">Contact</a></li>
+    </ul>
+</nav>

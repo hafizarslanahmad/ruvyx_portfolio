@@ -1,35 +1,41 @@
-<div class="side">
+<div class="sidebar">
     <h1 class="s">S.</h1>
-    <ul>
-        <a href="/">
-            
-            <li class="side_btn mt-90">
-                <span>HOME</span>
+    <ul>       
+        <a  class="u-l-r" href="/">  
+            <li class="side-btn mt-90 d-flex">
+                <span class="sidebar-icon <%= 'sidebar-icon-active' if request.original_fullpath == '/'%>"><i class="fa-solid fa-house icon-size"></i></span>
+                <span class="btn-text ml-17 <%= 'green-text' if request.original_fullpath == '/'%>">HOME</span>
             </li>
         </a> 
-        <a href="/projects">
-            <li class="side_btn mt-30 ">
-                <span>DESIGNING</span>
+        <a class="u-l-r" href="/categories?type=designing">
+            <li class="side-btn mt-30 d-flex">
+                <span class="sidebar-icon <%= 'sidebar-icon-active' if request.original_fullpath == '/categories?type=designing'%>">  <i class="fa-brands fa-slack icon-size"></i>
+                </span>
+                <span class="btn-text ml-17 <%= 'green-text' if request.original_fullpath == '/categories?type=designing'%>">DESIGNING</span>
             </li>
         </a> 
-        <a href="/development">
-            <li class="side_btn mt-30 ">
-                <span>DEVELOPMENT</span>
+        <a class="u-l-r" href="/categories?type=web_development">
+            <li class="side-btn mt-30 d-flex">
+                <span class="sidebar-icon <%= 'sidebar-icon-active' if request.original_fullpath == '/categories?type=web_development'%>"><i class="fa-solid fa-briefcase icon-size"></i></i></span>
+                <span class="btn-text ml-17 <%= 'green-text' if request.original_fullpath == '/categories?type=web_development'%>">DEVELOPMENT</span>
             </li>
         </a> 
-        <a href="/mobile">
-            <li class="side_btn mt-30 ">
-                <span>MOBILE</span>
+        <a class="u-l-r" href="/categories?type=mobile">
+            <li class="side-btn mt-30 d-flex">
+                <span class="sidebar-icon <%= 'sidebar-icon-active' if request.original_fullpath == '/categories?type=mobile'%>"><i class="fa-solid fa-pen-nib icon-size"></i></span>
+                <span class="btn-text ml-17 <%= 'green-text' if request.original_fullpath == '/categories?type=mobile'%>">MOBILE</span>
             </li>
         </a> 
-        <a href="/marketing">
-            <li class="side_btn mt-30 ">
-                <span>MARKETING</span>
+        <a class="u-l-r" href="/marketing">
+            <li class="side-btn mt-30 d-flex">
+                <span class="sidebar-icon <%= 'sidebar-icon-active' if request.original_fullpath == '/marketing'%>"><i class="fa-solid fa-comments-dollar icon-size"></i></span>
+                <span class="btn-text ml-17 <%= 'green-text' if request.original_fullpath == '/marketing'%>" >MARKETING</span>
             </li>
         </a> 
-        <a href="contact">
-            <li class="side_btn mt-30 ">
-                <span>CONTACT</span>
+        <a class="u-l-r" href="contact">
+            <li class="side-btn mt-30 d-flex">
+                <span class="sidebar-icon <%= 'sidebar-icon-active' if request.original_fullpath == '/contact'%>"><i class="fa-regular fa-address-book icon-size"></i></span>
+                <span class="btn-text ml-17 <%= 'green-text' if request.original_fullpath == '/contact'%>" >CONTACT</span>
             </li>
         </a> 
     </ul>
