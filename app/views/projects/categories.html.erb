@@ -5,15 +5,31 @@
     <div class="m-l">
        <img src="assets/noun-hexagon-3398768 2.png">
     </div>
-    <h3 class="design-h3 ml-736">CREATIVE DESIGNING</h3>
-    <div class="div-size">
-       <h1 class="design-h1">Our Creative for the Creative</h1>
-       <h1 class="deve-h1 ml-275">World</h1>
-    </div>
+    <div class="heading">
+      <% if request.original_fullpath == '/categories?type=designing'%>
+        <h3 class="design-h3 ml-736">CREATIVE DESIGNING</h3>
+        <div class="div-size">
+          <h1 class="design-h1">Our Creative for the Creative</h1>
+          <h1 class="deve-h1-w ml-275">World</h1>
+        </div>
+      <% elsif  request.original_fullpath == '/categories?type=web_development'%>  
+        <h3 class="design-h3 ml-747">WEB DEVELOPMENT</h3>
+        <div class="div-size-d">
+          <h1 class="deve-h12 ml-40">Actionable insights </h1>
+          <h1 class="deve-h1-r"> Real-world experience </h1>
+        </div>
+      <%elsif request.original_fullpath == '/categories?type=mobile'%>
+        <h3 class="design-h3 ml-732">MOBILE DEVELOPMENT</h3>
+        <div class="div-size-d">
+          <h1 class="deve-h12 ">Transforming Ideas Into </h1>
+          <h1 class="deve-h1-r ml"> Digital Experiences</h1>
+        </div>
+      <% end %>  
+    <div>
     <div class="d-div">
       <div class="img-card">
           <% @projects.each do |project|%>
-            <div class="d-img mr-20 mb-160 box1">
+            <div class="d-img mr-20 mb-200 box1">
                 <% if project.images.attached?%>
                   <%= image_tag project.images.first, class: "d-img"%>
                 <%else%>
