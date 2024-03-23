@@ -434,8 +434,8 @@
 }
 
 .modal-img{
-    width: 600px;
-    height: 500px;
+    width: 910px;
+    height: 729px;
     margin-top: -15px;
     margin-left: 10px;
     border-radius: 5px;
@@ -465,6 +465,8 @@
 }
 .m-bg{
     background-color: #303030;
+    width: 1496px;
+    margin-left: -150px;
 }
 .close-r{
     float: right;
@@ -675,6 +677,14 @@
     .button{
         margin-left: 460px;
     }
+    .m-bg{
+        width: 1150px;
+        margin-left: 0px;
+    }
+    .modal-img{
+        width: 650px;
+        height: 550px;
+    }
 }
 
 @media screen and (max-width: 1024px) and (min-width: 769px) {
@@ -795,6 +805,17 @@
     .home-main-div{
         margin-left: 70px;
     }
+    .m-bg{
+        width: 900px;
+        margin-left: -30px;
+    }
+    .modal-tem{
+        width: 300px;   
+    }
+    .modal-img{
+        width: 500px;
+        height: 480px;
+    }
 }
 
 @media screen and (max-width: 768px) and (min-width: 426px) {
@@ -910,6 +931,17 @@
     .button{
         margin-left: 380px;
     }
+    .m-bg{
+        width: 1020px;
+        margin-left: -95px;
+    }
+    .modal-tem{
+        width: 300px;   
+    }
+    .modal-img{
+        width: 600px;
+        height: 650px;
+    }
     
 }
 
@@ -920,6 +952,7 @@
     .content{
     width: 204.5%;
     margin-left: 0%;
+    padding-bottom: 160%;
     }
     .nav{
     width: 204.5%;
@@ -1001,6 +1034,17 @@
     .home-main-div{
         margin-left: 70px;
     }
+    .m-bg{
+        width: 850px;
+        margin-left: 0px;
+    }
+    .modal-tem{
+        width: 250px;   
+    }
+    .modal-img{
+        width: 500px;
+        height: 600px;
+    }
 }
 
 @media screen and (max-width: 375px) and (min-width: 0px){
@@ -1010,7 +1054,7 @@
     .content{
         width: 260%;
         margin-left: 0%;
-        padding-bottom: 100%;
+        padding-bottom: 285%;
      }
     .nav{
         width: 260%;
@@ -1089,6 +1133,17 @@
     }
     .button{
         margin-left: 320px;
+    }
+    .m-bg{
+        width: 960px;
+        margin-left: 0px;
+    }
+    .modal-tem{
+        width: 350px;   
+    }
+    .modal-img{
+        width: 500px;
+        height: 550px;
     }
 } 
 
