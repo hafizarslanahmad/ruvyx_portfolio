@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'enquiries/new'
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
@@ -10,10 +11,13 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
    root "projects#home"
 
+   resources :enquiries
+   
+
    #get "development", to: "main#development"
    #get "mobile", to: "main#mobile"
    get "marketing", to: "projects#marketing"
-   get "contact", to: "projects#contact"
+   get "contact", to: "enquiries#contact"
 
    get "categories", to: "projects#categories"
 

@@ -10,7 +10,4 @@ class ProjectsController < ApplicationController
 
     def marketing
     end
-
-    def contact
-    end
 end

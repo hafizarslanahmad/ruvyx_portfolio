@@ -1,0 +1,23 @@
+<div class="content">
+    <div class="img-size">
+      <img src="assets/noun-hexagon-3398768 1.png">
+    </div>
+    <div class="m-l">
+      <img src="assets/noun-hexagon-3398768 2.png">
+    </div>
+    <h1 class="contact-h1">Contact Us.</h1>
+    <div class=" form1 mt-100">
+      <%= form_with model: @enquiry  do |form|%>
+        <div class="d-flex">
+            <%= form.text_field :name, placeholder: 'Your Name Here', class: "input-1"%>
+            <%= form.text_field :subject, placeholder: 'Suject', class:  "input-1 ml-24"%>
+        </div>
+          <%= form.text_field :email, placeholder: 'Email', class:  "input-2 mt-20"%>
+        <div >
+        <%= form.text_field :description, placeholder: 'Type what you want to say', class: " mt-20 text-area"%>
+        </div>
+        <%= form.submit "Submit", class: "button" %>
+      <% end %>  
+    </div>
+
+</div>  

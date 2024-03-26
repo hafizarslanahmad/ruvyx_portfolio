@@ -262,8 +262,11 @@
 .ml-50{
     margin-left: 50px;
 }
+.ml-92{
+    margin-left: 92px;
+}
 .form1{
-    margin-left: 187px;
+    text-align: center;
 }
 .gency{
     width: 583px;
@@ -328,14 +331,17 @@
     font-weight: 600;
     font-size: 50px;
     color: #FFFFFF;
-    margin-left: 688px;
-    margin-top: -500px;
+    text-align: center;
+    margin-top: 150px;
 }
 .ml-187{
     margin-left: 187px;
 }
+.contact-flex{
+    text-align: center;
+}
 .input-1{
-    width: 636px;
+    width: 612px;
     height: 60px;
     border: 1px solid #303030;
     background-color: #000000;
@@ -387,7 +393,7 @@
     border-radius: 5px;
     background-color: #2D9352;
     margin-top: 80px;
-    margin-left: 570px;
+    text-align: center;
 }
 .img1{
     width: 30px;
@@ -480,6 +486,7 @@
 .side-btn.active .btn-text {
     color: #2D9352;
 }
+
 
 
 /*--------@media Queries--------*/
@@ -577,6 +584,13 @@
     }
     .deve-h11{
         margin-left: 70px;
+    }
+    .input-2{
+        width: 1250px;
+    }
+    .text-area{
+        width: 1250px;
+       
     }
 
 }
